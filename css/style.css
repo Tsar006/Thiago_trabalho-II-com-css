@@ -1,15 +1,18 @@
 .body {
-    background-image: url("/img/background_japao.jpg");
+    background-image: url("../img/background_japao.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
+
+
 .texto_centro{
     align-content: center;
     color: #fff;
     background-color: rgba(255, 255, 255, 0);
     text-decoration: underline;
     font-size: 99px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .centro {
     text-align: center;

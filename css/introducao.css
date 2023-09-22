@@ -1,11 +1,36 @@
 body {
+    background-image: url('../img/padrão_fundo_introducao.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
 .imagem_div_f {
-
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 4px 7px 13px 3px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 4px 7px 13px 3px rgba(0,0,0,0.64);
+    -moz-box-shadow: 4px 7px 13px 3px rgba(0,0,0,0.64);
+    margin-left: 3vh;
+    margin-right: 3vh;
+    
 }
 
-.imagem_div_p {
+.div_filho_com_texto {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.div_pai {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 2vh;
+        border-radius: 6vh;
+        
+}
+
+.texto {
+    padding: 1vh;
 
 }
