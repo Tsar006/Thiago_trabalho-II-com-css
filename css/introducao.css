@@ -60,11 +60,25 @@ body {
     flex-direction: row;
     width: 90%;
     height: 80%;
-    background-color: red;
 }
 
 .texto_navbar {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nav_estilo {
+    display: flex;
+    width: 99%;
+    height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(129, 1, 1) 0%, rgb(139, 1, 1) 15%, rgba(177, 2, 2, 0.436) 100%);
+    position:fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    padding: 2vh;
 }
