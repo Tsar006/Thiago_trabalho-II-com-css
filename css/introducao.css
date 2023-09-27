@@ -62,11 +62,6 @@ body {
     height: 80%;
 }
 
-.texto_navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .nav_estilo {
     display: flex;
@@ -81,4 +76,25 @@ body {
     left: 0;
     justify-content: center;
     padding: 2vh;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.div_principal{
+    margin: 15vh;
+    background-color: #c5ab63;
 }

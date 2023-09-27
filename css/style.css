@@ -41,17 +41,7 @@
     height: 80%;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10%;
-    height: 100%;
-}
 
-.logo img {
-    margin-right: 20px; /* Espaço entre a imagem e os botões */
-}
 
 .botoes_navbar {
     display: flex;
