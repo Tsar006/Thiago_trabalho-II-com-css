@@ -2,23 +2,34 @@ body {
     background-image: url('../img/padrão_fundo_introducao.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
     
 }
 
-.imagem_div_f {
-    width: fit-content;
-    height: fit-content;
+.div_filho {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem_div_topo {
+    width: 50vh;
+    height: 45vh;
     box-shadow: 4px 7px 13px 3px rgba(0,0,0,0.64);
     -webkit-box-shadow: 4px 7px 13px 3px rgba(0,0,0,0.64);
     -moz-box-shadow: 4px 7px 13px 3px rgba(0,0,0,0.64);
-    margin-left: 3vh;
-    margin-right: 3vh;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.div_filho_com_texto {
-    background-color: rgb(255, 255, 255);
-    align-items: center;
+.imagem_div_f{
+    width: 45vh;
+    height: 45vh;
+    box-shadow: 4px 7px 13px 3px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 4px 7px 13px 3px rgba(0,0,0,0.64);
+    -moz-box-shadow: 4px 7px 13px 3px rgba(0,0,0,0.64);
+    margin: 2vh;
 }
 
 .div_pai {
@@ -32,6 +43,7 @@ body {
 
 .texto {
     padding: 1vh;
+    text-align: center;
 
 }
 
@@ -62,7 +74,6 @@ body {
     height: 80%;
 }
 
-
 .nav_estilo {
     display: flex;
     width: 99%;
@@ -70,7 +81,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgb(129, 1, 1) 0%, rgb(139, 1, 1) 15%, rgba(177, 2, 2, 0.436) 100%);
+    background: linear-gradient( rgb(129, 1, 1) 0%, rgb(139, 1, 1) 15%, rgb(177, 2, 2) 100%);
     position:fixed;
     top: 0;
     left: 0;
@@ -96,5 +107,5 @@ a{
 
 .div_principal{
     margin: 15vh;
-    background-color: #c5ab63;
+    background-color: #d8d3a4;
 }
